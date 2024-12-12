@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Social Network</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1>My Social Network</h1>
+    </header>
+    <main class="container">
+        <section class="login-section">
+            <h2>Welcome Back</h2>
+            <form id="login-form">
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" placeholder="Enter your email" required>
+                <span class="error" id="login-email-error"></span>
+                
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" placeholder="Enter your password" required>
+                <span class="error" id="login-password-error"></span>
+                
+                <button type="submit">Log In</button>
+            </form>
+        </section>
+        <section class="signup-section">
+            <h2>New Here?</h2>
+            <form id="signup-form">
+                <label for="signup-name">Name:</label>
+                <input type="text" id="signup-name" placeholder="Enter your name" required>
+                <span class="error" id="signup-name-error"></span>
+                
+                <label for="signup-email">Email:</label>
+                <input type="email" id="signup-email" placeholder="Enter your email" required>
+                <span class="error" id="signup-email-error"></span>
+                
+                <label for="signup-password">Password:</label>
+                <input type="password" id="signup-password" placeholder="Create a password" required>
+                <span class="error" id="signup-password-error"></span>
+                
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 My Social Network</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
